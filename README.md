@@ -9,7 +9,7 @@ Before you begin, ensure you have the following:
     pfSense ISO image downloaded from the official website.
 
 Steps
-1. Create a New Virtual Machine
+1. Create a New Virtual Machine:
     Open VirtualBox and click on New.
     Enter the name for your VM (e.g., pfSense).
     Set the type to BSD and the version to FreeBSD (64-bit).
@@ -26,14 +26,17 @@ Steps
    ![image](https://github.com/user-attachments/assets/a63ea7d7-8d2b-43b8-b34f-b495d561326e)
 
 
-5. Create a Virtual Hard Disk
+5. Create a Virtual Hard Disk:
 
     Select Create a virtual hard disk now and click Create.
     Choose VDI (VirtualBox Disk Image) and click Next.
+
+   ![image](https://github.com/user-attachments/assets/0a307e32-dab3-4197-8694-9173edb06d0f)
+
     Select Dynamically allocated and click Next.
     Set the disk size to at least 10 GB. Click Create.
 
-6. Configure Network Interfaces
+7. Configure Network Interfaces
     Select your new VM and click on Settings.
     Go to the Network section.
     Adapter 1: Enable and attach it to NAT.
