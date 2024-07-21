@@ -11,10 +11,11 @@ Before you begin, ensure you have the following:
 Steps
 1. Create a New Virtual Machine
 
-    Open VirtualBox and click on New.
-    Enter the name for your VM (e.g., pfSense).
-    Set the type to BSD and the version to FreeBSD (64-bit).
-   ![image](https://github.com/user-attachments/assets/d8bfbac7-9820-4392-ac98-262b6b4a4df7)
+    #Open VirtualBox and click on New.
+    #Enter the name for your VM (e.g., pfSense).
+    #Set the type to BSD and the version to FreeBSD (64-bit).
+   
+   ![image](https://github.com/user-attachments/assets/45e67bcd-fc2f-45f9-8822-f7d253ef1485)
 
     Click Next.
 
