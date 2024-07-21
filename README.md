@@ -93,15 +93,29 @@ The installation will proceed and complete. Once done, the VM will reboot.
     Open a web browser on your any of your vm or host machine:
     I will make sure my LInux mint is connecte to internal network i.e Lan interface of my firewall
     Start my Linux mint vm to access firewall UI through ip 192.168.1.1
-    ![image](https://github.com/user-attachments/assets/3d980966-7b9a-4d00-a03c-a4a284e566fc)
+![image](https://github.com/user-attachments/assets/69300e7f-6270-4f44-baf7-422c95cae8d1)
+![image](https://github.com/user-attachments/assets/3106a04a-455b-49ea-a933-5cf5a212d817)
+
+    Verify if we can reach our firewal  lan interface from our linux mint vm
+    
+    ![image](https://github.com/user-attachments/assets/db1f4577-e25c-49da-8ebf-2f47bd683377)
 
     Navigate to the LAN IP address assigned to the pfSense VM (e.g., https://192.168.1.1).
+    
     You may need to bypass a security warning if using a self-signed certificate.
+    ![image](https://github.com/user-attachments/assets/54ceda0a-0720-4794-a9db-f7c7aa77f4f1)
+
+    Accept and continue to our web UI
+
+![image](https://github.com/user-attachments/assets/2866eb2c-6817-47d6-8331-24af44d3328b)
+
+
     Log in using the default credentials:
         Username: admin
         Password: pfsense
     Follow the initial setup wizard to complete the configuration.
+![image](https://github.com/user-attachments/assets/e833f829-8756-44f9-b7c4-f6a1e9779a68)
 
 Conclusion
 
-You have successfully installed pfSense on VirtualBox. You can now start configuring your firewall, routing, and other network services as needed.
+We have successfully installed pfSense on VirtualBox. We can now start configuring our firewall, routing, and other network services as guided in thIS REPOSITORY
